@@ -1,0 +1,28 @@
+.worker {
+  text-align: center;
+}
+
+.worker__title {
+  margin-bottom: 10px;
+
+  @include font(16px, 500, 19px);
+  text-align: center;
+  letter-spacing: var(--letter-spacing);
+
+  color: var(--main-font-color);
+}
+
+.worker__paragraph {
+  margin-bottom: 16px;
+
+  @include font(16px, 400, 19px);
+  letter-spacing: var(--letter-spacing);
+}
+
+.worker__info {
+  text-align: center;
+  padding-top: 30px;
+  padding-bottom: 30px;
+  padding-right: 32px;
+  padding-left: 32px;
+}
